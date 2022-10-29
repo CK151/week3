@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right, #e704e7, #4040d4);
+}
+
+.container{
+  width: 30%;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.form-section {
+  background-image: linear-gradient(to right, #6f6fe7,#ea5dea);
+  border-radius: 5px;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.form-section h3{
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+label {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.input-part {
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.input-part input:focus {
+  outline: 0;
+}
+
+.select {
+  width: 30%;
+  border: none;
+}
+
+:placeholder {
+  padding-left: .3rem;
+  padding-bottom: 0px;
+}
+
+.btn {
+  width: 40%;
+  height: 2rem;
+  text-align: center;
+  margin-left: 6rem;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(to right, #c0e1ec,#f702f7);
+  border: transparent;
+  transition: all 4s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #60ccf0,#cd74cd);
+  font-size: 1.8rem;
+}
+
+.link {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #9cda5d;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #0091ff;
+}
+
+
+
+@media only screen and (max-width: 600px){
+.container{
+  width: 60%;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+}

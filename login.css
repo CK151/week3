@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, #fd6d6d, #523838)
+}
+
+.container {
+  width: 20%;
+    max-width: 110rem;
+    margin: 7rem auto;
+    padding: 0 2rem;
+    background-color: white;
+}
+
+.heading {
+  font-size: 1.8rem;
+  color: black;
+  font-family: sans-serif;
+  margin-top: .8rem;
+}
+
+
+
+
+label {
+  color: black;
+  font-size: 1rem;
+}
+
+.input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1.6px solid #f04c67;
+
+}
+
+.in {
+  margin-top: 1rem;
+}
+
+
+.input-part {
+  margin-top: 1rem;
+}
+
+.btn {
+  width: 40%;
+  height: 2rem;
+  text-align: center;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(to right, #c0e1ec,#f702f7);
+  border: transparent;
+  transition: all 4s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #60ccf0,#cd74cd);
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 600px){
+.container {
+  width: 50%;
+    max-width: 110rem;
+    margin: 7rem auto;
+    padding: 0 2rem;
+    background-color: white;
+}
+}
